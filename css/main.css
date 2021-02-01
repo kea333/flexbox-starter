@@ -111,13 +111,23 @@ body {
   color: #fff;
 }
 
-header,
+                                    /* CS : separated header from footer */
+
+header {                            /* CS : added display, justify-content and align-items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    height: 100px;                  /* CS : changed height from 80px to 100px */
+    width: 100%;
+  }
+
 footer {                            /* CS : added display, justify-content and align-items */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #222;
-  height: 80px;
+  height: 40px;                     /* CS : changed height from 80px to 40px */
   width: 100%;
 }
 
