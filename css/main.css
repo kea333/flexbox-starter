@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
-/* CS = CodeSensei337 comments */
+/* CS: = CodeSensei337 comments */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -94,77 +94,109 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles                   /* CS = CodeSensei337 comments */
+                                CS: custom styles
    ========================================================================== */
 
 html {
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
+    background-color: #0000ff;      /* CS : changed html style */
+    color:#00cc44;
+    height: 100%;
+    width: 100%;
 }
 
-body {
+body {                               /* CS : changed body style */
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
 }
+                                    /* CS : separated header from main and footer */
 
-                                    /* CS : separated header from footer */
-
-header {                            /* CS : added display, justify-content and align-items */
+header {                            /* CS : changed header style */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222;
-    height: 100px;                  /* CS : changed height from 80px to 100px */
+    border-bottom-style: solid;
+    border-bottom-color: #00e64d;
+    border-width: thin;
+    font-family: 'Lora', serif;
+    font-size: 1.6em;
+    padding: 0.5em 0 0.5em 0;
+    height: 20%;                  
     width: 100%;
-  }
+}
 
-footer {                            /* CS : added display, justify-content and align-items */
+main {                              /* CS : changed main style */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #222;
-  height: 40px;                     /* CS : changed height from 80px to 40px */
+  font-size: 1.2em;
+  padding: 0.5em 0.5em;
+  height: 20%;
   width: 100%;
 }
 
-main {                              /* CS : added display, justify-content and align-items */
+#main-copyright {                   /* CS : added id for 1st copyright statement */
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #ccc;
-  height: 250px;
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-color: #00e64d;
+  border-width: thin;
+  font-family: 'Arvo', serif;
+  line-height: 1.0em;
+  font-size: 0.8em;
+  padding: 0 0.5em 0.5em 0;
   width: 100%;
 }
 
-header,
-footer,
-main {
-
-}
-
-.flex-container {                   /* CS : added display, flex-flow, justify-content and align-items */
+.flex-container {                   /* CS : changed container style */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   justify-content:space-between;
+  border-bottom-style: solid;
+  border-bottom-color: #00e64d;
+  border-width: thin;
 }
 
-.flex-items {                       /* CS : added display, justify-content and align-items */
+.flex-items {                       /* CS : added flex-items style */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  line-height: 1.1em;
+  font-size: 1.0em;
+  padding: 1.0em 0.5em 0 0;
+  width: 32%;
+  height: 50%;
 }
+
+#div-1 {                            /* CS : thin demarcation line between divs 1 and 2 */
+    border-right-style: solid;
+    border-right-color: #009933;
+    border-width: thin;
+}
+  
+#div-2 {                            /* CS : thin demarcation line between divs 2 and 3 */
+    border-right-style: solid;
+    border-right-color: #009933;
+    border-width: thin;
+}
+
+#flex-items-copyright {              /* CS : added id for 2nd copyright statement */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Arvo', serif;
+  line-height: 1.1em;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+footer {                             /* CS: effectively removed footer */
+  height: 1.0%;    
+}                                     
 
 /* ==========================================================================
    Helper classes
