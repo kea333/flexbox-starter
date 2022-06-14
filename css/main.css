@@ -108,7 +108,7 @@ body {                               /* CS : changed body style */
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
-  height: 100%;
+  height: 100%; 
 }
                                     /* CS : separated header from main and footer */
 
@@ -130,7 +130,7 @@ main {                              /* CS : changed main style */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1.0em;
   padding: 0.5em 0.5em;
   height: 20%;
   width: 100%;
@@ -144,7 +144,7 @@ main {                              /* CS : changed main style */
   border-bottom-color: #00e64d;
   border-width: thin;
   font-family: 'Arvo', serif;
-  line-height: 1.0em;
+  line-height: 0.5em;
   font-size: 0.8em;
   padding: 0 0.5em 0.5em 0;
   width: 100%;
@@ -166,7 +166,7 @@ main {                              /* CS : changed main style */
   justify-content: center;
   align-items: center;
   line-height: 1.1em;
-  font-size: 1.0em;
+  font-size: 0.9em;
   padding: 1.0em 0.5em 0 0;
   width: 32%;
   height: 50%;
@@ -185,14 +185,14 @@ main {                              /* CS : changed main style */
 }
 
 #flex-items-copyright {              /* CS : added id for 2nd copyright statement */
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: 'Arvo', serif;
-  line-height: 1.1em;
-  font-size: 0.8em;
-  width: 100%;
-}
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Arvo', serif;
+    line-height: 1.0em;
+    font-size: 0.8em;
+    width: 100%;
+  }
 
 footer {                             /* CS: effectively removed footer */
   height: 1.0%;    
